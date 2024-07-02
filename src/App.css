@@ -1,0 +1,90 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/*---------------- custom css ------------- */
+
+.app, .css-dip3t8 {
+  background: #011FCB !important;
+}
+
+.menu1 {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.label{
+  color: #fff;
+}
+.card{
+  background: #fff;
+  margin: 10px;
+  box-shadow: 1px 2px 5px 3px #00000014;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 450px;
+  margin: auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 7px 20px 20px rgb(210, 227, 244);
+}
+.file-upload {
+  text-align: center;
+  border: 3px dashed rgb(210, 227, 244);
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.file-upload p {
+  font-size: 0.87rem;
+  margin-top: 10px;
+  color: #bbcada;
+}
+.file-upload input {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+/*---------------- custom css ------------- */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
